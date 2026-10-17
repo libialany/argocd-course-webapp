@@ -54,6 +54,7 @@ jobs:
           git push
   add_labels:
     runs-on: ubuntu-latest
+    
     needs: update-image-tag-in-helm
     steps:
       - uses: actions/checkout@v2
@@ -67,7 +68,8 @@ jobs:
               labels: ['preview']
             })
     permissions:
-      contents: write
+      issues: write
+      pull-requests: write
 
 
 
