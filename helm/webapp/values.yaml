@@ -5,7 +5,6 @@ replicaCount: 1
 image:
   repository: libiamel/argocd-course-webapp
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
   tag: 593b334e45f9f14bf24583cdc6bf242ae8f7a240
 
 imagePullSecrets: []
