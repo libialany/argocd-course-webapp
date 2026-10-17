@@ -6,7 +6,7 @@ image:
   repository: libiamel/argocd-course-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: e19d6fca45bd62025d918775fff83ce02ec61eea
+  tag: fb724ed79713e304d09c1d5f68a8f3ac523d84f2
 
 imagePullSecrets: []
 nameOverride: ""
