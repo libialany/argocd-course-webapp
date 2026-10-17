@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: libiamel/argocd-course-webapp
   pullPolicy: IfNotPresent
-  tag: 2fa04d3f9f0897eedff0021d68864b96e63f70d2
+  tag: e70dc9bf335ec865b41a579b4a01a612b4037d3c
 
 imagePullSecrets: []
 nameOverride: ""
