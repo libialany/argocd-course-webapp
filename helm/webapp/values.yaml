@@ -5,5 +5,5 @@ image:
   tag: c26a96a5415ef4330e8e28085b24d3e89d949fe7
 
 service:
-  port: 80
+  port: 8081
   targetPort: 8080
