@@ -1,9 +1,7 @@
 replicaCount: 1
-
 image:
   repository: libiamel/argocd-course-webapp
-  tag: c26a96a5415ef4330e8e28085b24d3e89d949fe7
-
+  tag: a1bcc56a4b34ef66e8b12aaed2fdd9a5d2ee501c
 service:
   port: 8081
   targetPort: 8080
