@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: ghcr.io/libialany/webapp
-  tag: 709d7141614abf311702959456582364b07ef530
+  tag: 50d4edb3281034d3c128368154f1482ae068f40c
 service:
   port: 8081
   targetPort: 8080
