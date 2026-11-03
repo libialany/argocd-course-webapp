@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: libiamel/argocd-course-webapp
+  repository: ghcr.io/libialany/webapp
   tag: a1bcc56a4b34ef66e8b12aaed2fdd9a5d2ee501c
 service:
   port: 8081
